@@ -1,0 +1,47 @@
+.chat-page {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+
+
+
+.current-room {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+    overflow-y: scroll !important;
+}
+
+
+
+.chat {
+    margin-top: auto;
+    padding: 10px;
+    overflow-y: scroll !important;
+    flex-grow: 1;
+}
+
+
+
+
+
+
+.members {
+    overflow: visible;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 243, 243);
+}

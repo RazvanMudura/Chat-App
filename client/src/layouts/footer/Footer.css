@@ -1,0 +1,12 @@
+footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    align-items: center;
+    background: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+}

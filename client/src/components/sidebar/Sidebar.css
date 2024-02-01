@@ -1,0 +1,47 @@
+.sidebar {
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: visible;
+    background-color: rgb(243, 243, 243);
+}
+
+
+.chats {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: visible;
+}
+
+.room {
+    background: white;
+    border: none;
+    border-radius: 15px;
+    height: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.2s;
+}
+
+.room:hover, .search-input:hover {
+    background: rgb(243, 243, 243);
+    transition: 0.2s;
+}
+
+
+.search-input {
+    width: 100%;
+    padding: 5px 12px;
+    padding-left: 35px;
+    margin: 10px auto;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.2s;
+}
+
